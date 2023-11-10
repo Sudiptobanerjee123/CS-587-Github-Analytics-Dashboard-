@@ -68,7 +68,7 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: #2a2642;
+  background: #cdebce;
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -104,7 +104,7 @@ h3 {
   font-size: 1.25rem;
 }
 h4 {
-  font-size: 0.875rem;
+  font-size:1.5rem;
 }
 p {
   margin-bottom: 1.25rem;
@@ -159,6 +159,7 @@ p {
 .section {
   padding: 1rem 0;
   position: relative;
+  color: antiquewhite;
 }
 
 .section-center {

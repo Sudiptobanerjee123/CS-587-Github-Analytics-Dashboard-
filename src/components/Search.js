@@ -59,10 +59,10 @@ const Wrapper = styled.div`
     align-items: center;
     grid-template-columns: auto 1fr auto;
     column-gap: 0.5rem;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 0.5rem;
     input {
-      background: #5c5489;
+      background: #6d5477;
       border-color: transparent;
       outline-color: var(--clr-grey-10);
       letter-spacing: var(--spacing);
@@ -75,17 +75,17 @@ const Wrapper = styled.div`
       letter-spacing: var(--spacing);
     }
     button {
-      border-radius: 5px;
+      border-radius: 8px;
       border-color: transparent;
       padding: 0.25rem 0.5rem;
       text-transform: capitalize;
       letter-spacing: var(--spacing);
-      background: #5c5489;
+      background: #6d5477;
       color: #fff;
       transition: var(--transition);
       cursor: pointer;
       &:hover {
-        background: #5c5484;
+        background: #6d5477;
         color: #fff;
       }
     }
@@ -108,8 +108,8 @@ const Wrapper = styled.div`
   }
   h3 {
     margin-bottom: 0;
-    color: var(--clr-grey-5);
-    font-weight: 400;
+    color:black;
+    font-weight: 800;
   }
 `;
 const ErrorWrapper = styled.article`

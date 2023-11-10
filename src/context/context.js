@@ -47,7 +47,7 @@ const GithubProvider = ({ children }) => {
         })
         .catch((err) => console.error(err));
     } else {
-      toggleError(true, "there is no user with that usersname");
+      toggleError(true, "There is no User with that username! Please Try again!!!!");
     }
     checkRequests();
     setIsLoading(false);
@@ -88,3 +88,4 @@ const GithubProvider = ({ children }) => {
 };
 
 export { GithubProvider, GithubContext };
+

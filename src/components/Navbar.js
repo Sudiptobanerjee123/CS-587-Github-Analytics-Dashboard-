@@ -45,6 +45,7 @@ const Wrapper = styled.nav`
     color: #fff;
     margin-bottom: 0;
     font-weight: 400;
+    font-size: 1.5rem;
   }
   img {
     width: 35px !important;
@@ -55,11 +56,12 @@ const Wrapper = styled.nav`
   button {
     background: transparent;
     border: transparent;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-transform: capitalize;
     letter-spacing: var(--spacing);
     color: var(--clr-grey-5);
     cursor: pointer;
+    margin-left: 400px;
   }
 `;
 
